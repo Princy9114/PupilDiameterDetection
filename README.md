@@ -8,18 +8,59 @@ A **Machine Learning-based application** to detect driver’s pupil diameter in 
 
 ## 🚀 Features
 
-✅ Real-time driver eye monitoring  
-✅ Regression model for precise pupil diameter prediction  
-✅ Classification model for driver state detection  
-✅ Trained on **eye, weather, and lighting datasets**  
-✅ Scalable for integration with driver assistance systems  
+✅ Real-time driver eye monitoring
+✅ Regression model for precise pupil diameter prediction
+✅ Classification model for driver state detection
+✅ Trained on **eye, weather, and lighting datasets**
+✅ Scalable for integration with driver assistance systems
 
 ---
 
 ## 🛠️ Usage
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/Princy9114/PupilDiameterDetection.git
    cd PupilDiameterDetection
-   python run.py
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the app**
+
+   ```bash
+   python app.py
+   ```
+
+4. **Test the models**
+
+   * For regression: `python regression_model.py`
+   * For classification: `python classification_model.py`
+
+5. **Integrate with camera feed**
+
+   * Plug in a webcam or video source
+   * Modify `camera_feed.py` for your setup
+
+---
+
+## 👩‍💻 Contributors
+
+✨ **Princy Patel** - [GitHub](https://github.com/Princy9114)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🌟 Show your support
+
+If you like this project, please ⭐ the repo to help others discover it!
